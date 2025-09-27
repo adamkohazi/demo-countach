@@ -79,3 +79,8 @@ An overview of the main files and folders in this project:
 - Crinkler is used as a linker for release builds only. After some tweeking I ended up using the following settings:
   - `/CRINKLER /HASHTRIES:300 /COMPMODE:SLOW /ORDERTRIES:10000 /UNALIGNCODE /REPORT:..\build\out.html`
 - Building a 64-bit executable is probably possible, but I never bothered getting it to work. Every release is built for x86.
+
+---
+Created by Adam Kohazi (derangedlines)
+
+Distributed under the [MIT license](LICENSE). Please note that some included tools may be subject to different licenses.
