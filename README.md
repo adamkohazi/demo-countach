@@ -1,5 +1,5 @@
 
-# 🏎️ Countach 4K Intro
+# 🏎️ Countach 4k Intro
 
 **Countach** is a tiny (just **4 kB**), self-contained Windows executable that generates a real-time 3D animation with music.
 
