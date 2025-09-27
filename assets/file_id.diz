@@ -1,0 +1,53 @@
+  Countach
+
+   4k intro by derangedlines
+   for experience 2023
+
+
+  Me Myself I
+   I remember the magic of running a sketchy keygen only to be greeted
+   by an epic chiptune and the logo of the group graffitied all over my
+   screen. Even much later in life, the way these animations worked was
+   like magic to me. But having an interest in creating digital art and
+   programming, I felt closer and closer... This October, I realized I
+   was only a few steps away from creating my very own demo.
+   So this is my attempt at putting it all together for the first time.
+
+  The Journey
+   The concept started as I was experimenting with dithering and
+   realized I could fake a pretty good 3D scenery with only screen
+   space geometry. I created a small sketch mimicking an early
+   Out Run-esque animation. I expanded the sketch to 3D and let the
+   nostalgia overtake me as I modeled my favorite childhood supercar.
+   Next, I needed music, which was completely uncharted territory for
+   me. It was by far the most challenging part to be able to come up
+   with something that I feel matches the visuals. Learning to write
+   music wasn't made easier by the limitations of the format. Finally
+   having something decent, I was excited to see the size when I first
+   compiled it all together. 7k. This has gotten me pretty excited,
+   since this has made it realistic to eventually make it fit into 4k.
+   So I made a final effort to optimize everything I had and compress
+   the code as much as I could without giving up too much. In the end,
+   my work was rewarded by the magical words:
+   "Final file size: 4075".
+
+
+  Enjoy in multiple resolutions:
+   countach_640x480.exe
+   countach_800x600.exe
+   countach_1024_768.exe
+   countach_1280_720.exe
+   countach_1920x1080.exe
+
+  Standing on the shoulders of giants
+   After realizing how much work goes into creating a demo, I would
+   like to thank everyone who has previously shared their work, made
+   their sources open, or provided any insight into their process.
+   Special thanks to iq for the many articles, tutorials, examples,
+   and templates that have guided me throughout this journey.
+
+  Credits
+   demo framework   iq
+   4klang           gopher + pOWL
+   crinkler         mentor + blueberry
+   shader minifier  Ctrl-Alt-Test  
