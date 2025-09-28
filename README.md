@@ -22,9 +22,7 @@ Press **ESC** at any time to stop the demo.
 This project was created using **Visual Studio 2022** and targets the **Windows x86/x64** platform. It relies on several external tools and sources, all of which are included in the repository for convenience:
 
 - **[Demo-Framework-4k](https://madethisthing.com/iq/Demo-Framework-4k)** – 4k Windows executable graphics example by **Inigo Quilez (iq)**, that provided the overall structure.
-- **[4klang](https://github.com/hzdgopher/4klang)** – Compact softsynth by **Dominik Ries (gopher) and Paul Kraus (pOWL)** of Alcatraz. used via `4klang.asm` in `tools/4klang/`
-
-
+- **[4klang](https://github.com/hzdgopher/4klang)** – Compact softsynth by **Dominik Ries (gopher) and Paul Kraus (pOWL)** of Alcatraz. The .VST was used to record the music and generate the output files. The result is later assembled together with [4klang.asm](tools/4klang/4klang.asm).
 - **[NASM](https://www.nasm.us/)** – x86 assembler, used for building 4klang, included in `tools/NASM/`.
 - **[Crinkler](https://github.com/runestubbe/Crinkler)** – Compressing linker by **Aske Simon Christensen (Blueberry) and Rune L. H. Stubbe (Mentor)**, used to reduce the final executable size, located in `tools/crinkler/`.
 - **[Shader Minifier](https://github.com/laurentlb/Shader_Minifier)** – GLSL minifier by **Laurent Le Brun (LLB / Ctrl-Alt-Test)**, used to shrink shader files, found in `tools/shader_minifier/`
@@ -40,10 +38,10 @@ An overview of the main files and folders in this project:
 ```
 ├───assets/            # Everything else
 │   │   file_id.diz      # Descriptor file, packed with the final release
-│   └───music            # Music composition
+│   └───music/            # Music composition
 │       │   countach.4kp   # 4klang preset
 │       │   countach.rpp   # Reaper project
-│       ├───instruments    # 4klang instruments individually
+│       ├───instruments/    # 4klang instruments individually
 │       └───output/        # 4klang output files after recording
 │               4klang.h     # song defines for 4klang
 │               4klang.inc   # note data (include file for 4klang.asm)
